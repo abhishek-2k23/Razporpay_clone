@@ -1,0 +1,45 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.card:hover .featureCardSVG{
+    transform: scale(1.01);
+    box-shadow: 2px 6px 19px -9px rgba(186,186,186,0.48);
+    transition: all 200ms;
+}
+.card:hover img{
+    background:linear-gradient(to top right,rgba(0, 149, 255, 0.759),rgb(0, 118, 202));
+    transition: all 200ms;
+}
+.card2:hover .featureCardSVG{
+    transform: scale(1.01);
+    box-shadow: -2px 0px 19px -16px rgba(186,186,186,0.48);
+    transition: all 200ms;
+}
+.card2:hover img{
+    background:linear-gradient(to top right,rgba(0, 68, 255, 0.759),rgb(35, 97, 178));
+    transition: all 200ms;
+}
+.razorpaybox {
+    box-shadow: 2px 6px 19px -9px rgba(130, 130, 130, 0.48);
+}
+.razorpaybox:hover{
+    transform: scale(1.02);
+    transition: all 0.5s;
+    box-shadow: 2px 6px 19px -5px rgba(70, 70, 70, 0.48);
+}
+.coreFeaturesBg
+{
+    background-size: 100% 100%;
+}
+.ScrollImg{
+    animation: infinite linear 10s moveImage1;
+}
+@keyframes moveImage1 {
+    0%{
+        top: 0;
+    }
+    100%{
+        top: -50%;
+    }
+}
